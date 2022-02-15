@@ -1,0 +1,25 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Netflix-Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafatSamara/Netflix-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafatSamara/Netflix-Clone/issues"
+  },
+  "homepage": "https://github.com/RafatSamara/Netflix-Clone#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  }
+}
