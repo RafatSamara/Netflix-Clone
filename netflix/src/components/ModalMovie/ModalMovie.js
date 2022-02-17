@@ -9,7 +9,7 @@ export default function ModalMovie(props) {
             <Modal.Body>{props.chosenMovie.overview}</Modal.Body>
             <Modal.Footer>
                 <Form>
-                    <Form.Group>
+                    <Form.Group> 
                         <Form.Control type="text" placeholder="Add Your Comment" />
                         <Form.Text></Form.Text>
                         <br></br>

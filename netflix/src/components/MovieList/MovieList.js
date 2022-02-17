@@ -4,7 +4,7 @@ export default function MovieList(props) {
     return (
         <>
             {
-                props.movie1.map(movie => {return (<Movie key={movie.id} obj={movie} />);})
+                props.movie1.map(movie => {return (<Movie key = {movie.id} obj = {movie} />);})
             }
         </>
     );

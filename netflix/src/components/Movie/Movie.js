@@ -28,7 +28,7 @@ export default function Movie(props) {
                     <Button className='btn' variant="primary">Add to Favourite</Button>
                 </div>
             </div>
-            { chosenMovie && (< ModalMovie show={show} colseModalMovieHandle={colseModalMovieHandle} chosenMovie={chosenMovie} />) }
+            { chosenMovie && (< ModalMovie show={show} colseModalMovieHandle={colseModalMovieHandle} chosenMovie = {chosenMovie} />) }
         </>
     );
 }
